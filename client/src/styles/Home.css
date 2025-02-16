@@ -1,0 +1,119 @@
+/* css to center the box */
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .container-fluid {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .row {
+    min-height: 100vh;
+  }
+  
+/* css for vdo background */
+
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+/* css for card */
+  .card {
+    background-color: rgba(18, 15, 37, 0.405) !important; /* Slightly transparent black */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(171, 210, 250, 0.7); /* White glow effect */
+    width: 600px;
+    
+  }
+
+  .card-body h4 {
+    color: #abd2fa !important;
+    text-shadow: 0 0 8px rgba(171, 210, 250, 0.8);
+    font-size: 3rem; /* Makes the text large */
+    font-weight: bold; /* Makes the text bold */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    padding-bottom: 80px;
+  }
+  
+  
+  
+  .card-body p {
+    color: #abd2fa !important;
+    text-shadow: 0 0 8px rgba(171, 210, 250, 0.8); /* Glowing white text */
+  }
+  
+  .new-room {
+    text-shadow: 0 0 5px rgba(171, 210, 250, 1); /* White glow for clickable text */
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: #abd2fa !important; /* Force white background */
+    color: black !important; /* Set text color to black for contrast */
+    border: none !important;
+    box-shadow: 0 0 10px rgba(171, 210, 250, 0.7);
+    padding:10px 30px !important;
+  }
+  
+  .btn-success:hover {
+    box-shadow: 0 0 20px rgba(171, 210, 250, 1);
+  }
+  
+
+  .form-group{
+    margin: 30px;
+  }
+
+
+
+  /* form input css */
+  .form-control {
+    background-color: rgba(171, 210, 250, 0.3) !important; /* Light blue with transparency */
+    border: 1px solid rgba(171, 210, 250, 0.6) !important; /* Slightly darker border */
+    color: white !important; /* White text */
+    box-shadow: 0 0 8px rgba(171, 210, 250, 0.8) !important; /* Glowing effect */
+    padding: 10px !important;
+    font-size: 1rem !important;
+    transition: box-shadow 0.3s ease-in-out !important;
+  }
+  
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important; /* Light white for placeholder */
+  }
+  
+  .form-control:focus {
+    outline: none !important;
+    box-shadow: 0 0 15px rgba(171, 210, 250, 1) !important; /* Stronger glow on focus */
+  }
+  
